@@ -1,0 +1,162 @@
+body {
+  /* font-size: 16px;
+            font-family: 'M PLUS 1', sans-serif; */
+  font: normal 16px "M PLUS 1", sans-serif;
+  background-color: rgb(219, 219, 219);
+}
+.hobb a {
+  color: black;
+  text-decoration: none;
+}
+.hobb a:hover {
+  text-decoration: underline;
+}
+.hobb a:active {
+  color: aliceblue;
+}
+/* a:visited {
+  color: firebrick;
+} */
+h2 {
+  margin: 0%;
+}
+h4 {
+  padding-left: 15px;
+}
+h3 {
+  color: #575555;
+}
+.d  img{
+  padding-bottom:4px ;
+padding-left: 12px;
+}
+ 
+.avatar {
+  width: 200px;
+  height: 300px;
+  border-radius: 34px;
+  box-shadow: 4px 4px 14px rgb(49, 49, 49);
+}
+
+.yellow p {
+  padding-bottom: 12px;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0px;
+}
+.infoaboutme p {
+  color: brown;
+  line-height: 0.9;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+}
+.infoaboutme {
+  display: flex;
+}
+.info_text {
+  padding-left: 18px;
+}
+/* text-transform: none;
+  letter-spacing: 0px;
+  word-spacing: 3px;
+} */
+/* box model */
+/* .social {
+  background-color: rgb(85, 233, 0);
+  padding: 15px 17px 18px 19px;
+  border: 12px solid red;
+margin: 33px 50px;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+.box-model div{
+float: left;
+background : black;
+ height: 200px;
+ width: 23%;
+border: 5px solid red;
+ }
+  /* * */
+.card div {
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  border-radius: 20px;
+}
+.yellow {
+  background: #fff9dc;
+  margin: 12px;
+  border-radius: 20px;
+  padding: 23px;
+}
+.green {
+  background: #e5ffe7;
+}
+.red {
+  background: #ffe5e5;
+}
+.blue {
+  background-color: rgb(183, 187, 235);
+}
+.sub {
+  padding-left: 15px;
+}
+.hobb {
+  padding: 15px;
+}
+
+/* * {  обратился ко всем тегам
+  margin: 0;
+  padding: 0;
+} */
+.table {
+  width: 100%;
+}
+.table td {
+  padding-bottom: 10px;
+}
+/* .table tr:nth-child(3) {
+  background-color: red;
+} */
+.f_videos {
+  background: #caa47e;
+}
+.f_videos a {
+  color: #575555;
+
+  text-decoration: none;
+}
+.f_videos a:hover {
+  color: #272626;
+  text-decoration: underline;
+}
+.f_videos ul {
+  padding-left: 15px;
+}
+
+.f_videos li {
+  padding-bottom: 2px;
+  margin-bottom: 12px;
+}
+.contact h2 {
+  text-align: center;
+}
+.form_group label {
+  display: block;
+  color: rgb(134, 75, 2);
+}
+.form_group input,
+.form_group textarea {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border-bottom: 1px solid rgb(172, 172, 172);
+  outline: none;
+  padding-top: 23px;
+  margin: 12px;
+  font-family: inherit;
+  background: transparent;
+}
